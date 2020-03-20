@@ -32,7 +32,7 @@ int main() {
 		}
 
 
-
+		g.gridMenu();
 		int AI = ticTacGame.at(0)->inputPickChoice();
 		int Hum = ticTacGame.at(1)->inputPickChoice();
 		std::cout << "AI Picked " << AI << std::endl;
@@ -45,6 +45,8 @@ int main() {
 		for (auto i : Game::ticTacToe) {
 			std::cout << i << " ";
 		}
+		system("pause");
+		system("cls");
 		std::cout << std::endl;
 	}
 	

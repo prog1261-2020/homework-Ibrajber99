@@ -11,7 +11,7 @@ public:
 	static std::vector<char>ticTacToe;
 	
 
-	
+	void gridMenu();
 	void mainMenu();
 	bool checkIfWon(char H,char AI);
 	void checkIfValid(int n, char c);

@@ -8,6 +8,11 @@ std::vector<char> Game::ticTacToe =  {
 		,'E','E','E'
 }; 
 
+void Game::gridMenu()
+{
+	std::cout << "\n1 2 3\n 4 5 6\n 7 8 9\n";
+}
+
 void Game::mainMenu()
 {
 	std::cout <<
@@ -17,6 +22,7 @@ void Game::mainMenu()
 		"**********************************************\n";
 	std::cout << std::endl;
 }
+
 
 bool Game::checkIfWon(char H,char AI)
 {
